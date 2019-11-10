@@ -1,0 +1,16 @@
+/* CSS reset */
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+/* Pozicionálás */
+
+.profile-card {
+  width: 480px;
+  max-width: calc(100vw - 10px);
+}
