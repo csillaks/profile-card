@@ -8,9 +8,100 @@
   font-size: 100%;
 }
 
-/* Pozicionálás */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url(assets/background.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
 
 .profile-card {
-  width: 480px;
+  width: 700px;
+  height: 400px;
   max-width: calc(100vw - 10px);
+  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+}
+
+.headline {
+  height: 40%;
+  width: 100%;
+  text-align: center;
+  
+}
+
+h1, h2, p, span {
+  font-family: 'Titillium Web', sans-serif;
+  
+}
+
+h1 {
+  letter-spacing: 15px;
+  margin-bottom: 10px;
+  font-size: 40px;
+}
+
+h2, .location {
+  font-weight: bold;
+  font-size: 19px
+}
+
+.profile-picture {
+  height: 60%;
+  width: 35%;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  filter: grayscale(50%);
+}
+
+img:hover {
+  transform: rotate(360deg);
+  filter: grayscale(20%);
+}
+
+.about {
+  height: 60%;
+  width: 55%;
+  line-height: 200%;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.text1 {
+  padding: 30px;
+  text-align: center;
+}
+.contact-section {
+  height: 60%;
+  width: 10%;
+  background-color: rgba(255, 255, 255, 0.6);
+  font-weight: bold;
+  padding: 8px;
+}
+
+.left {
+  float: left;
+}
+
+.links, .contact {
+  text-align: center;
+}
+
+.links {
+  margin: 10px;
+}
+
+.social-icon:hover{
+  transform: rotate(360deg);
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
 }
