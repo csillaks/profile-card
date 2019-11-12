@@ -25,20 +25,16 @@ body {
 }
 
 .headline {
-  display:flex;
-  justify-content: center;
-  align-items: center; 
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
   /*flex-direction: column;*/
   height: 40%;
   width: 100%;
   text-align: center;  
 }
 
-.box {
-  display:flex;
-  justify-content: center;
-  align-items: center; 
-}
 
 h1, h2, p, span {
   font-family: 'Titillium Web', sans-serif;
@@ -46,7 +42,7 @@ h1, h2, p, span {
 }
 
 h1 {
-  letter-spacing: 15px;
+  letter-spacing: 10px;
   margin-bottom: 10px;
   font-size: 40px;
 }
