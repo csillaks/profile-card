@@ -34,11 +34,6 @@ body {
   text-align: center;  
 }
 
-.box {
-  display:flex;
-  justify-content: center;
-  align-items: center;
-}
 
 h1, h2, p, span {
   font-family: 'Titillium Web', sans-serif;
