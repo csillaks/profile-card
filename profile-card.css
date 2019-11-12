@@ -25,10 +25,13 @@ body {
 }
 
 .headline {
+  display:flex;
+  justify-content: center;
+  align-items: center; 
+  flex-direction: column;
   height: 40%;
   width: 100%;
-  text-align: center;
-  
+  text-align: center;  
 }
 
 h1, h2, p, span {
@@ -72,8 +75,10 @@ img:hover {
 }
 
 .text1 {
-  padding: 30px;
   text-align: center;
+  display:flex;
+  justify-content: center;
+  align-items: center;  
 }
 .contact-section {
   height: 60%;
