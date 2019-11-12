@@ -60,6 +60,7 @@ img {
 
 img:hover {
   transform: rotate(360deg);
+  transition: all 0.7s ease-in-out;
   filter: grayscale(20%);
 }
 
@@ -94,11 +95,12 @@ img:hover {
   margin: 10px;
 }
 
-/*
-.social-icon:hover{
+
+.icon:hover{
   transform: rotate(360deg);
+  transition: all 0.7s ease-in-out;
 }
-*/
+
 
 ul {
   list-style-type: none;
