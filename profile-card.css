@@ -28,7 +28,7 @@ body {
   display:flex;
   justify-content: center;
   align-items: center; 
-  /*flex-direction: column;*/
+  flex-direction: column;
   height: 40%;
   width: 100%;
   text-align: center;  
